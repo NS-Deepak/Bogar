@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pH Sensor Data</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 40px auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.menu-bar {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.menu-bar a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+		#ph-value {
+			font-size: 48px;
+			font-weight: bold;
+			color: #00698f;
+		}
+		#water-safety {
+			font-size: 24px;
+			font-weight: bold;
+			color: #00698f;
+		}
+		.safe {
+			color: #2ecc71;
+		}
+		.not-safe {
+			color: #e74c3c;
+		}
+        .footer {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+	</style>
+</head>
+<body>
+	<div class="menu-bar">
+		<a href="index.html">Home</a>
+		<a href="blog.html">Blog</a>
+		<a href="about.html">About Us</a>
+		<a href="product.html">Product</a>
+		<a href="story.html">Our Story</a>
+	</div>
+	<div class="container">
+		<h1>pH Sensor Data</h1>
+		<div id="ph-value">-</div>
+		<div id="water-safety"></div>
+	</div>
+    <div class="container">
+		<h1>Toxicity Level Data</h1>
+		
+	</div>
+    <div class="footer">
+       <p>order now the PH sensor</p>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
