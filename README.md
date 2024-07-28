@@ -1,1 +1,1 @@
-# Bogar
+We use Arduino C++ for backend operation. For Frontend  We used Html, Css and Javascript. Ph sensor connected with Arduino ,it will have wifi adopter to send PH value to Website.Thingspeak IOT is used for cloud operation and storing the data.
